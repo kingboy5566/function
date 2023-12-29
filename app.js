@@ -7,7 +7,7 @@
 }
 date();
 document.write("<br>")
-document.write("Q:-2"+"<br> <br>")
+document.write("Q:-2"+"<br>")
 
 function name(){
     var fName = prompt("Enter your first name..?")
@@ -18,19 +18,19 @@ function name(){
 
 name()
 
- document.write("<br>"+"Q:-3"+"<br> <br>")
+ document.write("<br>"+"Q:-3"+"<br>")
 
 
 function sum(){
-    var num1 = +prompt("Enter your first number..?")
-    var num2 = +prompt("Enter your second number ..?")
+    var num1 = +prompt("Write the first number to sum..?")
+    var num2 = +prompt("Write the second number to sum ..?")
     var sum = num1+num2
     document.write(sum)
 }
 
 sum()
 
-document.write("<br>"+"Q:-4"+"<br> <br>")
+document.write("<br>"+"Q:-4"+"<br>")
 function calculator(){
     var opt = prompt("Enter the operator exp - + * /")
     var num3 = +prompt("Enter your first number..?")
@@ -48,15 +48,15 @@ function calculator(){
 }
 
 calculator()
-document.write("<br>"+"Q:-5"+"<br> <br>")
+document.write("<br>"+"Q:-5"+"<br>")
 
 function sqr(){
-    var sqr1 =prompt("plase enter a number..!")
+    var sqr1 =prompt("Write the number to find the squre..!")
      document.write(Math.sqrt(sqr1)+"<br>")
 }
 sqr()
 
-document.write("<br>"+"Q:-6"+"<br> <br>")
+document.write("<br>"+"Q:-6"+"<br>")
 function factoril(number){
     var fac = 1;
     if ( number == 0){
@@ -70,13 +70,13 @@ function factoril(number){
         }
     }document.write(fac)
 }
-factoril(prompt("enter a number to chek the factoril"))
+factoril(prompt("Write the number to finde the factoril"))
 
-document.write("<br>"+"Q:-7"+"<br> <br>")
+document.write("<br>"+"Q:-7"+"<br>")
 
 function count(){
-    var cnt1 = prompt("Enter start number to count")
-    var cnt2 = prompt("Enter last number tocount ")
+    var cnt1 = prompt("Enter start number to counting")
+    var cnt2 = prompt("Enter last  number to  counting")
     for( var i=cnt1; i<=cnt2; i++){
         document.write(i)  
     }
@@ -84,11 +84,11 @@ function count(){
 }
 
 count()
-document.write("<br>"+"Q:-8"+"<br> <br>")
+document.write("<br>"+"Q:-8"+"<br>")
 
 function out(){
-  var hight=prompt("Enter the value of hight")
-   var base=prompt("Enter the value of base")
+  var hight=prompt("write down the value of the height to finde the hypotunse")
+   var base=prompt("write down the value of the base to finde the hypotunse")
 
     function iner(){
    var bsquare = base**2
@@ -102,11 +102,11 @@ function out(){
 }
 out()
 
-document.write("<br>"+"Q:-9"+"<br> <br>")
+document.write("<br>"+"Q:-9"+"<br>")
 
 function woo(height,width){
-    var height=prompt("Enter the length of a height");
-      var width=prompt("Enter the length of a width");
+    var height=prompt("write down the value of the height to finde the rectangle");
+      var width=prompt("write down the value of the width to finde the rectangle");
       var area = height*width;
 
 
@@ -114,7 +114,7 @@ function woo(height,width){
 woo()
 
 
-document.write("<br> <br>"+"Q:-10"+"<br> <br>")
+document.write("<br> <br>"+"Q:-10"+"<br>")
 
 function pal (str) {
            var str1 = str.split('').reverse().join('')
@@ -130,7 +130,7 @@ function pal (str) {
          
          pal(prompt('Entar a palindromes word'))
 
- document.write("<br> <br>"+"Q:-11"+"<br> <br>")
+ document.write("<br> <br>"+"Q:-11"+"<br>")
 
 function uppercase (str){
     var array1 = str.split(" ");
@@ -144,9 +144,9 @@ function uppercase (str){
    
 }
  
-document.write(uppercase(prompt("Enter a pera ")))
+document.write(uppercase(prompt("Write a peragraph to capitalize the first word ")))
 
- document.write("<br> <br>"+"Q:-12"+"<br> <br>")
+ document.write("<br> <br>"+"Q:-12"+"<br>")
 function long (word){
     var word1 = word.match(/\w[a-z]{0,}/gi);
     var result = word1[0];
@@ -160,11 +160,11 @@ function long (word){
 
 document.write(long(prompt("write the peragraph to check which word is bigger..?")))
 
-document.write("<br> <br>"+"Q:-13"+"<br> <br>")
+document.write("<br> <br>"+"Q:-13"+"<br>")
 
 function chek(){
-    var word = prompt("Enter a maximum word");
-    var chek_letter = prompt("Enter the checking word");
+    var word = prompt("Write the paragraph to finde the word count");
+    var chek_letter = prompt("Write the word you want to find");
 
 
     var count = 0;
@@ -178,7 +178,7 @@ function chek(){
 chek()
 
 
-document.write("<br> <br>"+"Q:-14"+"<br> <br>")
+document.write("<br> <br>"+"Q:-14"+"<br>")
 
 function calcCircumfrence(radius) {
     //PI formula 3.14/22 by 7 k equal hy

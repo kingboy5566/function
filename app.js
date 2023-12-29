@@ -160,11 +160,39 @@ function long (word){
 
 document.write(long(prompt("write the peragraph to check which word is bigger..?")))
 
+document.write("<br> <br>"+"Q:-13"+"<br> <br>")
+
+function chek(){
+    var word = prompt("Enter a maximum word");
+    var chek_letter = prompt("Enter the checking word");
 
 
+    var count = 0;
+    for(var i=0; i<= word.length;i++){
+        if(word[i] == chek_letter ){
+            count++;
+        }
+    }
+    document.write("This letter " +"("+chek_letter+") " +  count + " time")
+}
+chek()
 
 
+document.write("<br> <br>"+"Q:-14"+"<br> <br>")
 
+function calcCircumfrence(radius) {
+    //PI formula 3.14/22 by 7 k equal hy
+    //is liy 3.14 ko maltipal radius k sath kya 
+    var a = (Math.PI * radius) * 2;
+  document.write("The circumfrence is " + a + "."+"<br>");
+  }
+  function calcArea(radius) {
+    var b = (Math.PI * radius) * radius;
+  document.write("The area is " + b + ".");
+  }
+  
+  calcCircumfrence(prompt("Enter a calc number "));
+  calcArea(prompt("Enter the area number"));
 
 
 
